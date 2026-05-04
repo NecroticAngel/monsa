@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book a Call — Monsa Media</title>
+  <meta name="description" content="Tell us about your business. We'll reply within one working day with an honest take on whether we're the right fit.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav id="nav">
+  <div class="wrap">
+    <a href="index.html" class="logo">
+      <span class="logo-mark"><svg viewBox="0 0 22 22" width="22" height="22"><defs><linearGradient id="lg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#4F46E5"/><stop offset="1" stop-color="#EC4899"/></linearGradient></defs><circle cx="11" cy="11" r="10" fill="none" stroke="#0F0F0F" stroke-width="1"/><circle cx="11" cy="11" r="5" fill="url(#lg)"/></svg></span>
+      Monsa Media
+    </a>
+    <ul class="nav-links">
+      <li><a href="services.html">Services</a></li>
+      <li><a href="case-studies.html">Case studies</a></li>
+      <li><a href="about.html">About</a></li>
+    </ul>
+    <a href="contact.html" class="nav-cta">Book a call</a>
+    <button class="nav-mobile-toggle" id="mobileToggle" aria-label="Menu"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+<div class="nav-mobile-menu" id="mobileMenu">
+  <a href="services.html">Services</a><a href="case-studies.html">Case studies</a><a href="about.html">About</a>
+  <a href="contact.html" class="nav-cta">Book a call</a>
+</div>
+
+<!-- PAGE HERO -->
+<section class="page-hero">
+  <div class="wrap">
+    <span class="eyebrow reveal">Get in touch</span>
+    <h1 class="reveal">Tell us about <em>your business.</em></h1>
+    <p class="subhead reveal">The faster you tell us the business, the faster we can tell you honestly whether we're the right team. Expect a reply within one working day.</p>
+  </div>
+</section>
+
+<!-- CONTACT GRID -->
+<section>
+  <div class="wrap">
+    <div class="contact-grid">
+      <!-- Left: info -->
+      <div class="reveal">
+        <h3 style="font-size:22px;font-weight:500;letter-spacing:-0.02em;margin-bottom:12px;">How this <em>works</em></h3>
+        <p style="color:var(--ink-soft);font-size:15.5px;line-height:1.7;margin-bottom:28px;">Fill in the form and we'll get back to you within one working day with an honest take on whether we're the right fit. If we're not, we'll say so — and point you in a better direction if we can.</p>
+        <div class="contact-steps">
+          <div class="contact-step">
+            <div class="contact-step-num">1</div>
+            <div><h4>You fill in the form</h4><p>Tell us about your business, channels, and what you're trying to solve.</p></div>
+          </div>
+          <div class="contact-step">
+            <div class="contact-step-num">2</div>
+            <div><h4>We reply within one day</h4><p>Honest take on fit. If it's a yes, we'll book a 20-min intro call.</p></div>
+          </div>
+          <div class="contact-step">
+            <div class="contact-step-num">3</div>
+            <div><h4>Free 48-hour account scan</h4><p>Then a written opinion on whether we can genuinely help.</p></div>
+          </div>
+          <div class="contact-step" style="border-bottom:none;">
+            <div class="contact-step-num">4</div>
+            <div><h4>Scoped proposal</h4><p>If it's a fit, a written proposal lands within 48 hours. No fluff.</p></div>
+          </div>
+        </div>
+        <div class="contact-note">
+          <strong style="color:var(--ink);display:block;margin-bottom:6px;">No obligation, no hard sell.</strong>
+          If we're not the right fit we'll tell you. If the timing isn't right, we'll say so. The first conversation is free and pressure-free.
+        </div>
+      </div>
+
+      <!-- Right: form -->
+      <div class="reveal">
+        <div style="background:white;border:1px solid var(--line);border-radius:24px;padding:44px;">
+          <h3 style="font-size:20px;font-weight:500;letter-spacing:-0.02em;margin-bottom:6px;">Send us a message</h3>
+          <p style="font-size:14px;color:var(--mute);margin-bottom:28px;">We reply within one working day.</p>
+          <form id="contactForm" action="#" method="POST">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" class="form-control" placeholder="Your name" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Work email</label>
+                <input type="email" id="email" name="email" class="form-control" placeholder="you@company.com" required>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="company">Company</label>
+                <input type="text" id="company" name="company" class="form-control" placeholder="Company name" required>
+              </div>
+              <div class="form-group">
+                <label for="website">Website</label>
+                <input type="url" id="website" name="website" class="form-control" placeholder="https://yoursite.com">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="spend">Monthly ad spend</label>
+              <select id="spend" name="spend" class="form-control" required>
+                <option value="" disabled selected>Select a range</option>
+                <option>&lt;€5K / month</option>
+                <option>€5K – €25K / month</option>
+                <option>€25K – €75K / month</option>
+                <option>€75K – €250K / month</option>
+                <option>€250K+ / month</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="channel">Primary channel interest</label>
+              <select id="channel" name="channel" class="form-control" required>
+                <option value="" disabled selected>Select channel(s)</option>
+                <option>Google Ads</option>
+                <option>Meta Ads</option>
+                <option>Both Google &amp; Meta</option>
+                <option>Audit / Consulting</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">What are you trying to solve?</label>
+              <textarea id="message" name="message" class="form-control" placeholder="Tell us about your current situation, what's not working, and what good looks like for you." required></textarea>
+            </div>
+            <button type="submit" class="btn-primary" style="width:100%;justify-content:center;border-radius:12px;">
+              <span>Send message</span><span>→</span>
+            </button>
+            <p style="text-align:center;font-size:12.5px;color:var(--mute);margin-top:14px;">Reply within one working day · No spam, ever.</p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CALENDLY PLACEHOLDER -->
+<section style="background:var(--cream-2);border-top:1px solid var(--line);">
+  <div class="wrap">
+    <p class="section-label reveal center" style="justify-content:center;text-align:center;">Or book directly</p>
+    <h2 class="reveal" style="text-align:center;margin:0 auto 16px;">Prefer to just <em>find a time?</em></h2>
+    <p class="reveal" style="text-align:center;color:var(--ink-soft);max-width:44ch;margin:0 auto 40px;font-size:17px;">Pick a slot that works for you and we'll come prepared with any context you've shared.</p>
+    <div class="reveal" style="background:white;border:1px solid var(--line);border-radius:24px;padding:56px 44px;text-align:center;max-width:560px;margin:0 auto;">
+      <div style="width:52px;height:52px;background:linear-gradient(135deg,rgba(79,70,229,0.1),rgba(139,92,246,0.08));border-radius:50%;display:flex;align-items:center;justify-content:center;margin:0 auto 18px;color:var(--accent);">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+      </div>
+      <h3 style="font-size:20px;margin-bottom:10px;font-weight:500;letter-spacing:-0.02em;">Calendly booking</h3>
+      <p style="color:var(--mute);font-size:14px;max-width:34ch;margin:0 auto 24px;line-height:1.6;">Add your Calendly link to embed a live booking calendar here.</p>
+      <a href="https://calendly.com" target="_blank" rel="noopener noreferrer" class="btn-primary" style="display:inline-flex;">
+        <span>Open booking calendar</span><span>→</span>
+      </a>
+      <p style="margin-top:14px;font-size:12px;color:var(--mute);">20-min intro call &middot; No commitment &middot; Honest conversation</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div>&copy; 2026 Monsa Media &middot; Berlin / Remote</div>
+    <div><a href="services.html">Services</a><a href="case-studies.html">Case studies</a><a href="about.html">About</a><a href="contact.html">Contact</a><a href="mailto:hi@monsa.media">hi@monsa.media</a></div>
+  </div>
+</footer>
+<script src="js/main.js"></script>
+</body>
+</html>
