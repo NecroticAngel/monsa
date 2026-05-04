@@ -5979,3 +5979,15 @@ select {
 .logo-sticky .monsa-wordmark {
     color: #000000;
 }
+
+/* Monsa footer wordmark — Federo, 33px, white */
+.footer .logo .monsa-wordmark--footer,
+.footer .monsa-wordmark--footer {
+    color: #ffffff;
+    font-size: 33px;
+}
+.footer .top .item .logo:has(.monsa-wordmark),
+.footer .bottom .logo:has(.monsa-wordmark) {
+    width: auto;
+    max-width: 100%;
+}
