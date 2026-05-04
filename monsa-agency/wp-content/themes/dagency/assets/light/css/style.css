@@ -44,7 +44,7 @@
 ----------------------------------------- */
 
 :root{
-    --color-primary: #FF8559;
+    --color-primary: #b6ef00;
 }
 /* ======= Typography style ======= */
 html,
@@ -5958,4 +5958,24 @@ select {
 }
 [data-overlay-dark="10"]:before {
     opacity: 1;
+}
+
+/* Monsa header text wordmark (replaces logo images) */
+.monsa-wordmark {
+    font-family: "Federo", sans-serif;
+    font-size: 33px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    line-height: 1.1;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+}
+.logo-default .monsa-wordmark {
+    color: #ffffff;
+}
+.logo-sticky .monsa-wordmark {
+    color: #000000;
 }
