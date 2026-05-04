@@ -44,7 +44,7 @@
 ----------------------------------------- */
 
 :root{
-    --color-primary: #b6ef00;
+    --color-primary: #FF8559;
 }
 /* ======= Typography style ======= */
 html,
@@ -5990,4 +5990,18 @@ select {
 .footer .bottom .logo:has(.monsa-wordmark) {
     width: auto;
     max-width: 100%;
+}
+
+/* Monsa home: hide Elementor blog band (data-id 9d65275) */
+.elementor-element-9d65275 {
+    display: none !important;
+}
+
+/* Monsa client logo strip — real logos from ./clients/ */
+.clients .wrap .item img {
+    height: auto !important;
+    max-height: 44px;
+    width: auto;
+    max-width: 200px;
+    object-fit: contain;
 }
